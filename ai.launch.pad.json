@@ -558,7 +558,21 @@
             ]
           }
         },
-        "handoff": "Local egress determines what can be returned to the calling AI."
+        "handoff": "Local egress determines what can be returned to the calling AI.",
+        "project_seed_extraction": {
+          "status": "requires_separate_scope",
+          "interface_role": "Machine interface. The landing seed supplies the compact AI landing germ.",
+          "project_scope": "Any project may be considered as a source for seed extraction through transmigration and decomposting.",
+          "decomposting": "Decomposition, composting, and composition occur together. Examine parts and relationships while deciding what can feed new growth and how to compose a seed candidate.",
+          "scope_inputs": [
+            "selected project and pinned source revision",
+            "intended seed and its use",
+            "extraction boundary",
+            "applicable authority and explicit approval",
+            "required evidence and validation"
+          ],
+          "handoff": "Return the proposed scope and unresolved requirements to the calling AI before extraction."
+        }
       }
     },
     "block-3": {
