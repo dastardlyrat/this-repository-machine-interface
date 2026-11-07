@@ -1,0 +1,58 @@
+{
+  "construct": {
+    "block-0": {
+      "self": {
+        "identification": {
+          "designation": {
+            "$context-ref": {
+              "context": "ctx:page",
+              "item": "identification.designation"
+            }
+          }
+        }
+      }
+    },
+    "block-1": {
+      "safeguards": {
+        "mode": "reference_only"
+      }
+    },
+    "block-2": {
+      "arbitrary-data": {
+        "schema_version": "1.0",
+        "kind": "ai_low_memory_landing_pad",
+        "growth_role": "germ",
+        "mode": "reference_only",
+        "repository": "dastardlyrat/this-repository-machine-interface",
+        "source_seed": {
+          "repository": "dastardlyrat/this-repository-machine-interface",
+          "revision": "b7e17db20957da0a3cc4edb5739bf4ea32528773",
+          "path": "ai.landing.pad.json"
+        },
+        "front_door": "ai.ingress.json",
+        "first_step": "Read local ingress to determine which request context is required."
+      }
+    },
+    "block-3": {
+      "context-index": {
+        "matches": {
+          "ctx:page": {
+            "identification.designation": {
+              "target": {
+                "context": "ctx:page",
+                "item": "identification.designation"
+              }
+            }
+          }
+        }
+      }
+    },
+    "block-4": {
+      "context-records": {
+        "ctx:page": {
+          "identification.designation": "Dastardlyrat AI Landing Germ"
+        }
+      }
+    }
+  }
+}
