@@ -22,3 +22,11 @@ This repository is a machine interface. Its landing seed supplies the compact AI
 Before extraction, identify the selected project and pinned revision, the intended seed, the extraction boundary, and the authority and evidence required. The [launch pad](ai.launch.pad.json) records those requirements for a separately approved scope.
 
 See [Decomposting Theory](.ai.system.logic/human.DECOMPOSTING_THEORY.md) for recovery and recomposition, recursive transmigration, and the quadrangle of proper construction.
+
+## Human-readable JSON records
+
+- [Egress](.ai.system.logic/orientation/human.egress.md)
+- [Ingress](.ai.system.logic/orientation/human.ingress.md)
+- [Heuristic landing pad](.ai.system.logic/orientation/human.landing.pad.md)
+- [AI landing germ](.ai.system.logic/orientation/human.landing.pad.low-mem.md)
+- [Launch pad](.ai.system.logic/orientation/human.launch.pad.md)
