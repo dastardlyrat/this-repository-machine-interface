@@ -10,3 +10,5 @@ IF a required reference fails to resolve THEN stop the dependent step AND report
 # This Repository Machine Interface
 
 This standalone interface uses a full Lattice seed for heuristic engines and a compact germ for AIs. Both lead to [local ingress](ai.ingress.json), which describes the request context a caller needs to supply. The records provide orientation and request-admission rules for a receiving system.
+
+A request enters through [ingress](ai.ingress.json), proceeds to the [launch pad](ai.launch.pad.json) when admitted, and returns through [egress](ai.egress.json). The first supported operation is a read-only lookup of this interface documentation.

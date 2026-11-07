@@ -539,26 +539,54 @@
     "block-2": {
       "arbitrary-data": {
         "schema_version": "1.0",
+        "exchange_version": "1.0",
         "kind": "ingress_contract",
         "mode": "reference_only",
         "repository": "dastardlyrat/this-repository-machine-interface",
+        "reference_base": "repository_root",
         "landing_pad": "ai.landing.pad.json",
         "landing_germ": "ai.landing.pad.low-mem.json",
-        "required_context": [
-          "request_id",
-          "requested_operation"
-        ],
-        "conditional_context": [
-          "target repository and revision",
-          "source references",
-          "applicable authority evidence"
-        ],
+        "launch_pad": "ai.launch.pad.json",
+        "egress_contract": "ai.egress.json",
+        "request_envelope": {
+          "required": [
+            "request_id",
+            "operation",
+            "query"
+          ],
+          "fields": {
+            "request_id": "A nonempty correlation identifier.",
+            "operation": "The requested operation. This interface supports locate_documentation.",
+            "query": "The information sought in the interface documentation.",
+            "target": "Repository and optional revision. Resolve a unique target from the request or established caller context.",
+            "source_references": "Applicable source identities, paths, and revisions.",
+            "context_references": "Context required to understand the query.",
+            "authority_evidence": "Evidence of authority when required by the applicable access policy."
+          }
+        },
         "admission": [
-          "Establish the requested operation and its applicable context.",
-          "Resolve declared references and check authority before dependent work.",
-          "If a required reference fails to resolve, stop the dependent step and report the unresolved reference.",
-          "Return findings or missing context to the calling AI."
-        ]
+          "Validate required request fields and the supported operation.",
+          "Resolve the target and required references. Check authority before the dependent read.",
+          "If a required reference fails to resolve, stop the dependent step and report the condition."
+        ],
+        "outcomes": {
+          "accepted": {
+            "condition": "The target, required context, and applicable access are established.",
+            "next": "ai.launch.pad.json"
+          },
+          "missing_context": {
+            "condition": "A well-formed request lacks a unique target or required context.",
+            "next": "ai.egress.json"
+          },
+          "invalid_input": {
+            "condition": "A required field is malformed or absent, or the operation is unsupported.",
+            "next": "ai.egress.json"
+          },
+          "denied_access": {
+            "condition": "Required access or authority is denied.",
+            "next": "ai.egress.json"
+          }
+        }
       }
     },
     "block-3": {
@@ -1582,9 +1610,9 @@
         "ctx:page": {
           "identification.designation": "Dastardlyrat Ingress",
           "identification.contextual-role": "request_admission",
-          "structure.use.purpose": "Describe the local request boundary.",
+          "structure.use.purpose": "Establish the local request context before dependent work.",
           "structure.use.constraints": [
-            "Reference only. Establish local authority before dependent work."
+            "Reference only. Apply local authority and recipient disclosure rules."
           ]
         }
       }
