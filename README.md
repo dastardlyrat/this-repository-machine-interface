@@ -20,3 +20,5 @@ This repository is a machine interface. Its landing seed supplies the compact AI
 **Decomposting** is decomposition, composting, and composition happening together. Examine the project's parts and relationships while deciding what can feed new growth and how to compose that material into a seed. The emerging candidate can change which boundaries and relationships need further examination.
 
 Before extraction, identify the selected project and pinned revision, the intended seed, the extraction boundary, and the authority and evidence required. The [launch pad](ai.launch.pad.json) records those requirements for a separately approved scope.
+
+See [Decomposting Theory](.ai.system.logic/human.DECOMPOSTING_THEORY.md) for recovery and recomposition, recursive transmigration, and the quadrangle of proper construction.
