@@ -8,6 +8,28 @@
               "context": "ctx:page",
               "item": "identification.designation"
             }
+          },
+          "contextual-role": {
+            "$context-ref": {
+              "context": "ctx:page",
+              "item": "identification.contextual-role"
+            }
+          }
+        }
+      },
+      "structure": {
+        "use": {
+          "purpose": {
+            "$context-ref": {
+              "context": "ctx:page",
+              "item": "structure.use.purpose"
+            }
+          },
+          "constraints": {
+            "$context-ref": {
+              "context": "ctx:page",
+              "item": "structure.use.constraints"
+            }
           }
         }
       }
@@ -42,6 +64,24 @@
                 "context": "ctx:page",
                 "item": "identification.designation"
               }
+            },
+            "identification.contextual-role": {
+              "target": {
+                "context": "ctx:page",
+                "item": "identification.contextual-role"
+              }
+            },
+            "structure.use.purpose": {
+              "target": {
+                "context": "ctx:page",
+                "item": "structure.use.purpose"
+              }
+            },
+            "structure.use.constraints": {
+              "target": {
+                "context": "ctx:page",
+                "item": "structure.use.constraints"
+              }
             }
           }
         }
@@ -50,7 +90,13 @@
     "block-4": {
       "context-records": {
         "ctx:page": {
-          "identification.designation": "Dastardlyrat AI Landing Germ"
+          "identification.designation": "Dastardlyrat AI Landing Germ",
+          "identification.contextual-role": "ai_landing_germ",
+          "structure.use.purpose": "Orient the AI with a compact germ and route the request to local ingress.",
+          "structure.use.constraints": [
+            "Reference only. Resolve required references and establish applicable authority before dependent work.",
+            "Use the pinned heuristic seed for provenance and local ingress for current request admission."
+          ]
         }
       }
     }
