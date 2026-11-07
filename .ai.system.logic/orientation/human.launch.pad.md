@@ -6,6 +6,8 @@ The local exchange currently supports read-only lookup of this interface's docum
 
 [Source JSON](../../ai.launch.pad.json)
 
+Record identity · kind `ai_launch_pad` · version `1.0` · mode `reference_only`
+
 ## How to use this record
 
 Start after admission and identify the operation and the evidence it requires.
@@ -41,3 +43,9 @@ The supported lookup is this interface documentation. The project-seed entry sup
     - applicable authority and explicit approval
     - required evidence and validation
   - `handoff` — Return the proposed scope and unresolved requirements to the calling AI before extraction.
+
+## Direct record references
+
+- [README.md](../../README.md)
+- [ai.egress.json](../../ai.egress.json) · [Human companion](human.egress.md)
+- [ai.ingress.json](../../ai.ingress.json) · [Human companion](human.ingress.md)

@@ -6,6 +6,8 @@ The local exchange currently supports read-only lookup of this interface's docum
 
 [Source JSON](../../ai.egress.json)
 
+Record identity · kind `egress_contract` · version `1.0` · mode `reference_only`
+
 ## How to use this record
 
 Use the response boundary to form a correlated result for the calling AI.
@@ -66,3 +68,8 @@ Use the local ingress outcome mapping to choose a response. An admitted request 
     - blocked
   - `denied_access`
     - blocked
+
+## Direct record references
+
+- [ai.ingress.json](../../ai.ingress.json) · [Human companion](human.ingress.md)
+- [ai.launch.pad.json](../../ai.launch.pad.json) · [Human companion](human.launch.pad.md)

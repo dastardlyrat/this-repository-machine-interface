@@ -25,6 +25,8 @@ See [Decomposting Theory](.ai.system.logic/human.DECOMPOSTING_THEORY.md) for rec
 
 ## Human-readable JSON records
 
+Use the [project JSON map](.ai.system.logic/human.PROJECT_JSON_MAP.md) to follow the records by function, find their companions, and locate direct dependencies.
+
 - [Egress](.ai.system.logic/orientation/human.egress.md)
 - [Ingress](.ai.system.logic/orientation/human.ingress.md)
 - [Heuristic landing pad](.ai.system.logic/orientation/human.landing.pad.md)

@@ -6,6 +6,8 @@ The local exchange currently supports read-only lookup of this interface's docum
 
 [Source JSON](../../ai.ingress.json)
 
+Record identity · kind `ingress_contract` · version `1.0` · mode `reference_only`
+
 ## How to use this record
 
 Validate the envelope before selecting or reading evidence.
@@ -51,3 +53,10 @@ The supported operation is locate_documentation for this interface. Accepted req
   - `denied_access`
     - `condition` — Required access or authority is denied.
     - `next` — ai.egress.json
+
+## Direct record references
+
+- [ai.egress.json](../../ai.egress.json) · [Human companion](human.egress.md)
+- [ai.landing.pad.json](../../ai.landing.pad.json) · [Human companion](human.landing.pad.md)
+- [ai.landing.pad.low-mem.json](../../ai.landing.pad.low-mem.json) · [Human companion](human.landing.pad.low-mem.md)
+- [ai.launch.pad.json](../../ai.launch.pad.json) · [Human companion](human.launch.pad.md)

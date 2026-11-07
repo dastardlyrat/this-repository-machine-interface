@@ -6,6 +6,8 @@ Both landing records lead to this repository's own ingress.
 
 [Source JSON](../../ai.landing.pad.low-mem.json)
 
+Record identity · kind `ai_low_memory_landing_pad` · version `1.0` · mode `reference_only`
+
 ## How to use this record
 
 Use the germ for the first AI read. Load the route needed for the current request.
@@ -24,3 +26,8 @@ The pinned seed belongs to this repository. Its identity is separate from the li
   - `path` — ai.landing.pad.json
 - `front_door` — ai.ingress.json
 - `first_step` — Read local ingress to determine which request context is required.
+
+## Direct record references
+
+- [ai.ingress.json](../../ai.ingress.json) · [Human companion](human.ingress.md)
+- [ai.landing.pad.json](https://github.com/dastardlyrat/this-repository-machine-interface/blob/b7e17db20957da0a3cc4edb5739bf4ea32528773/ai.landing.pad.json) at b7e17db
