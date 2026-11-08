@@ -13,6 +13,17 @@ This standalone interface uses a full Lattice seed for heuristic engines and a c
 
 A request enters through [ingress](ai.ingress.json), proceeds to the [launch pad](ai.launch.pad.json) when admitted, and returns through [egress](ai.egress.json). The first supported operation is a read-only lookup of this interface documentation.
 
+## Lattice — Python API and recursive verification
+
+Lattice's atomic, molecular, ordinary-glue, adapter, Universal JSON, and Python-facing API work is indexed in the [Alia June Lattice v0.7.1 staging directory](https://github.com/alia-june/this-repository-machine-interface/blob/9c6730bb91dea4a747660e76988adcad4f7ab7df/staging/lattice-python-v0.7.1-recursive-2026-11-08/README.md). This is a cross-repository reference, not a duplicate deployment or independently admitted release.
+
+- [Architecture and Python API overview](https://github.com/alia-june/this-repository-machine-interface/blob/9c6730bb91dea4a747660e76988adcad4f7ab7df/staging/lattice-python-v0.7.1-recursive-2026-11-08/PROJECT_README_v0_7_1.md)
+- [Recursive harness report](https://github.com/alia-june/this-repository-machine-interface/blob/9c6730bb91dea4a747660e76988adcad4f7ab7df/staging/lattice-python-v0.7.1-recursive-2026-11-08/evidence/RECURSIVE_HARNESS_REPORT.md) and [machine-readable results](https://github.com/alia-june/this-repository-machine-interface/blob/9c6730bb91dea4a747660e76988adcad4f7ab7df/staging/lattice-python-v0.7.1-recursive-2026-11-08/evidence/RECURSIVE_HARNESS_FINAL_RESULT.json)
+- [Source archive SHA-256 checksums](https://github.com/alia-june/this-repository-machine-interface/blob/9c6730bb91dea4a747660e76988adcad4f7ab7df/staging/lattice-python-v0.7.1-recursive-2026-11-08/SOURCE_SHA256SUMS.txt) and [publication-status ledger](https://github.com/alia-june/this-repository-machine-interface/blob/9c6730bb91dea4a747660e76988adcad4f7ab7df/staging/lattice-python-v0.7.1-recursive-2026-11-08/PUBLICATION_STATUS.json)
+- [Original universal Lattice construct JSON](https://github.com/alia-june/this-repository-machine-interface/blob/main/.ai.system.logic/ai.Lattice_Universal_Construct_Empty_Blocks.json)
+
+**Publication boundary:** The staging directory currently hosts documentation, checksums, and test evidence; the full implementation and recursive-harness ZIP archives are not yet hosted on GitHub. Status: **CANDIDATE_ONLY / NOT_CANONICAL / NOT_ADMITTED**. This link does not authorize execution, alter either repository's machine-interface contracts, or publish a production service.
+
 ## Project seed extraction
 
 This repository is a machine interface. Its landing seed supplies the compact AI landing germ. Any project may be considered as the source of a separate project seed through **transmigration and decomposting**.
