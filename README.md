@@ -45,3 +45,5 @@ Use the [project JSON map](.ai.system.logic/human.PROJECT_JSON_MAP.md) to follow
 - [Heuristic landing pad](.ai.system.logic/orientation/human.landing.pad.md)
 - [AI landing germ](.ai.system.logic/orientation/human.landing.pad.low-mem.md)
 - [Launch pad](.ai.system.logic/orientation/human.launch.pad.md)
+
+<!-- Attribution note: "The Man-Machine" (1978) is a work by Kraftwerk. The reference to "man-machine" is credited to Kraftwerk; no affiliation or endorsement is implied. -->
