@@ -23,6 +23,8 @@ Before extraction, identify the selected project and pinned revision, the intend
 
 See [Decomposting Theory](.ai.system.logic/human.DECOMPOSTING_THEORY.md) for recovery and recomposition, recursive transmigration, and the quadrangle of proper construction.
 
+Our developing technology is documented in [xOSG Prototype](https://github.com/alia-june/xOSG-prototype).
+
 ## Human-readable JSON records
 
 Use the [project JSON map](.ai.system.logic/human.PROJECT_JSON_MAP.md) to follow the records by function, find their companions, and locate direct dependencies.
