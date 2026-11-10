@@ -13,6 +13,10 @@ This standalone interface uses a full Lattice seed for heuristic engines and a c
 
 A request enters through [ingress](ai.ingress.json), proceeds to the [launch pad](ai.launch.pad.json) when admitted, and returns through [egress](ai.egress.json). The first supported operation is a read-only lookup of this interface documentation.
 
+## Publication phase: Stage 0 site hydration
+
+The current cross-repository effort is **Stage 0: completing public site hydration and publication of eligible theory and proof-of-concept material** following EOL simulation research. **Stage 1: evidence-bound programmatic rehydration of code through expert systems** is planned, with synthetic generative text restricted to a last-resort, separately reviewed candidate. The machine interface is an orientation and admission record, not proof that Stage 1 exists as a general runtime. [Public phase roadmap](https://github.com/dastardlyrat/ethical-and-intellectual-theory/blob/main/research-ethics/EOL_SITE_HYDRATION_AND_REHYDRATION_ROADMAP.md). Private data is excluded from public release.
+
 ## Lattice — Python API and recursive verification
 
 Lattice's atomic, molecular, ordinary-glue, adapter, Universal JSON, and Python-facing API work is indexed in the [Alia June Lattice v0.7.1 staging directory](https://github.com/alia-june/this-repository-machine-interface/blob/9c6730bb91dea4a747660e76988adcad4f7ab7df/staging/lattice-python-v0.7.1-recursive-2026-11-08/README.md). This is a cross-repository reference, not a duplicate deployment or independently admitted release.
