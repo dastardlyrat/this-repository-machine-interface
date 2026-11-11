@@ -13,6 +13,12 @@ This standalone interface uses a full Lattice seed for heuristic engines and a c
 
 A request enters through [ingress](ai.ingress.json), proceeds to the [launch pad](ai.launch.pad.json) when admitted, and returns through [egress](ai.egress.json). The first supported operation is a read-only lookup of this interface documentation.
 
+## Lunar Flower AI Seed — expert-system theory
+
+[Read the Lunar Flower AI Seed: Expert-System Contract](https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md) · [Lunar Flower theory index](https://github.com/alia-june/Lunar-Flower/blob/main/theory/README.md).
+
+The proposed design places AI under an expert-system contract for bounded orchestration, builds the tools and governing structure from the ground up, and reserves generative synthetic decision-making for a reviewed last-resort candidate. Its first generic gate proposals are **Production Lock**, **Reiteration**, and **Hand-off**. This is a **reference-only theory seed**, not an activated runtime policy or a change to local ingress/launch/egress authority.
+
 ## m.A.R.S. workspace seed — machine intake reference
 
 Both this repository's [machine ingress](ai.ingress.json), [heuristic landing pad](ai.landing.pad.json), and [AI landing germ](ai.landing.pad.low-mem.json) expose **reference-only** links to the portable m.A.R.S. v0.3.0 workspace seed:
