@@ -72,3 +72,11 @@ Use the [project JSON map](.ai.system.logic/human.PROJECT_JSON_MAP.md) to follow
 - [Launch pad](.ai.system.logic/orientation/human.launch.pad.md)
 
 <!-- Attribution note: "The Man-Machine" (1978) is a work by Kraftwerk. The reference to "man-machine" is credited to Kraftwerk; no affiliation or endorsement is implied. -->
+
+## Project directory and related work
+
+[Browse the dastardlyrat project directory](https://dastardlyrat.github.io/).
+
+- [m.A.R.S.-Persistent-Tool-less-Amorphous-Workspace](https://github.com/dastardlyrat/m.A.R.S.-Persistent-Tool-less-Amorphous-Workspace)
+- [ethical-and-intellectual-theory](https://github.com/dastardlyrat/ethical-and-intellectual-theory)
+- [modular-recursive-plugin-pipeline](https://github.com/dastardlyrat/modular-recursive-plugin-pipeline)
