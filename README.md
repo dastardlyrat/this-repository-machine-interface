@@ -17,7 +17,7 @@ A request enters through [ingress](ai.ingress.json), proceeds to the [launch pad
 
 [Read the Lunar Flower AI Seed: Expert-System Contract](https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md) · [Lunar Flower theory index](https://github.com/alia-june/Lunar-Flower/blob/main/theory/README.md).
 
-The proposed design places AI under an expert-system contract for bounded orchestration, builds the tools and governing structure from the ground up, and reserves generative synthetic decision-making for a reviewed last-resort candidate. Its first generic gate proposals are **Production Lock**, **Reiteration**, and **Hand-off**. This is a **reference-only theory seed**, not an activated runtime policy or a change to local ingress/launch/egress authority.
+The proposed design places AI under an expert-system contract for bounded orchestration, builds the tools and governing structure from the ground up, and reserves generative synthetic decision-making for a reviewed last-resort candidate. The current canonical theory includes five proposed standing gates: **Production Lock, Reiteration, Hand-off, Informed Operator Validation, and Consequence-Scaled Challenge–Response**. This is a **reference-only theory seed**, not an activated runtime policy or a change to local ingress/launch/egress authority. Gate 0 remains unpublished as an adopted set of invariants.
 
 ## m.A.R.S. workspace seed — machine intake reference
 
