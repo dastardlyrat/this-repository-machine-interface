@@ -1,6 +1,8 @@
 # Project JSON map
 
-Audited against [`0bc1cf4`](https://github.com/dastardlyrat/this-repository-machine-interface/tree/0bc1cf4c44f92dc342d1f4af69ff1613a28893c7). This map covers the 5 JSON files tracked in this repository and their direct references. Each record has a human companion. Historical references use the paths at their pinned revisions.
+Audited against [`0bc1cf4`](https://github.com/dastardlyrat/this-repository-machine-interface/tree/0bc1cf4c44f92dc342d1f4af69ff1613a28893c7). This map covers the 5 JSON files tracked in this repository at the cited audit revision and their direct references. Each record has a human companion. Historical references use the paths at their pinned revisions.
+
+**Current public cross-repository navigation:** [research map](https://dastardlyrat.github.io/research.html) · [structured index](https://dastardlyrat.github.io/research-index.json). This newer catalog does not redefine the pinned five-file inventory, alter machine contracts, or grant permission to mine identifying methodologies.
 
 ## Follow the project
 
