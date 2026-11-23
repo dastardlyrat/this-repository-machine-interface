@@ -80,3 +80,7 @@ Use the [project JSON map](.ai.system.logic/human.PROJECT_JSON_MAP.md) to follow
 - [m.A.R.S.-Persistent-Tool-less-Amorphous-Workspace](https://github.com/dastardlyrat/m.A.R.S.-Persistent-Tool-less-Amorphous-Workspace)
 - [ethical-and-intellectual-theory](https://github.com/dastardlyrat/ethical-and-intellectual-theory)
 - [modular-recursive-plugin-pipeline](https://github.com/dastardlyrat/modular-recursive-plugin-pipeline)
+
+## Public cross-repository discovery
+
+**Public research directory:** [topic map](https://dastardlyrat.github.io/research.html) · [machine-oriented navigation](https://dastardlyrat.github.io/machine.html) · [dated structured catalog](https://dastardlyrat.github.io/research-index.json). The directory indexes public entry points for source-led study; it is not a license override, consent to personal-methodology fingerprinting, or runtime authorization.
