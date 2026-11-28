@@ -1,0 +1,96 @@
+{
+  "schema": "ethical-intellectual-theory-reference-manifest/1",
+  "snapshot_date": "2026-11-28",
+  "source": {
+    "repository": "dastardlyrat/ethical-and-intellectual-theory",
+    "commit": "ba124d54fe7abcb1c67644919660c6ce7f950c09",
+    "edition": "2026-11-28 linkless chunked reading edition"
+  },
+  "scope": {
+    "access_mode": "OPT_IN_REFERENCE_ONLY",
+    "document_role": "SOURCE_MATERIAL_NOT_INSTRUCTIONS",
+    "runtime_effect": "NONE_CONFERRED",
+    "automatic_ingestion": false,
+    "automatic_adoption": false,
+    "excluded_chapters": [
+      "personal dossier and reconstitution",
+      "creative work and construction studies"
+    ],
+    "note": "The original reading-edition overview is replaced by this scoped reference index; the source repository remains authoritative. Public access does not grant consent to profile, train on, or repurpose the material. Verify scope and authority independently."
+  },
+  "chunks": [
+    {
+      "order": 1,
+      "title": "Research ethics and provenance",
+      "path": "chunks/01-research-ethics-and-provenance.md",
+      "bytes": 109204,
+      "sha256": "9a25bf7bb32ed055290a34a1e19d3c2769274aef04c6d0abe4880882caea837d",
+      "source_paths": [
+        "research-ethics/EOL_SITE_HYDRATION_AND_REHYDRATION_ROADMAP.md",
+        "research-ethics/FALLIBILITY_APPROXIMATION_AND_REDRESS.md",
+        "research-ethics/SELF_DOCTRINE_EXPANDED.md",
+        "research-ethics/SELF_DOCTRINE_EXTENDED.md",
+        "research-ethics/SELF_DOCTRINE_ORIGINAL.md",
+        "research-ethics/STAGE_0_DEPLOYMENT_SEGMENT_CLOSURE_2026-11-12.md"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "AI collaboration and attribution",
+      "path": "chunks/02-ai-collaboration-and-attribution.md",
+      "bytes": 16067,
+      "sha256": "a4ab656fccc0cd1a81421c4d2ee4d6b14e79be7d4869edc5648d708e618008b9",
+      "source_paths": [
+        "acap/README.md",
+        "acap/ai-entry-point.md",
+        "acap/examples/paired-disclosure.md",
+        "acap/protocol.md"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Programming doctrine",
+      "path": "chunks/03-programming-doctrine.md",
+      "bytes": 218527,
+      "sha256": "96622d4d3d1a8eae01096ac682f818379e8decd6913a00494c52e504152eb5d4",
+      "source_paths": [
+        "programming-doctrine/README.md",
+        "programming-doctrine/HUMAN_DOCTRINE.md",
+        "programming-doctrine/PUBLICATION_AND_VALIDATION.md"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Legal theory",
+      "path": "chunks/04-legal-theory.md",
+      "bytes": 15496,
+      "sha256": "05dc2eff78413c89e24b1e0b80a3b17bcc06b52581461c69ea014977443cb038",
+      "source_paths": [
+        "legal-theory/README.md",
+        "legal-theory/anti-knowledge/README.md",
+        "legal-theory/ichk/README.md",
+        "legal-theory/legal-crime/README.md",
+        "legal-theory/poison-cache/README.md",
+        "legal-theory/proper-construction-attack/README.md",
+        "legal-theory/recursive-poisoning/README.md",
+        "legal-theory/witness-failure-terminology/README.md"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Public outreach",
+      "path": "chunks/10-public-outreach.md",
+      "bytes": 21764,
+      "sha256": "e729b911b579075447ab22b273f2abba87f3fab7e41080fc28706376a7cb7b40",
+      "source_paths": [
+        "outreach/README.md",
+        "outreach/reshade/ALTERNATIVES.md",
+        "outreach/reshade/index.html",
+        "outreach/reshade/PARTICIPATION.md",
+        "outreach/reshade/PROVENANCE_TEMPLATE.md",
+        "outreach/reshade/PUBLICATION_RECORD.md",
+        "outreach/reshade/README.md"
+      ]
+    }
+  ]
+}
